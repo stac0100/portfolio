@@ -5,8 +5,14 @@
 body{
     background-color: #F8F8F8;
     line-height: 1.5rem;
+    font-size: 16px;
 }
 
+/* setting font sizes / hierarchy */
+h1{font-size: 2em;}
+h2{font-size: 1.625em;}
+h3{font-size: 1.375em;}
+h4{font-size: 1.125em;}
 p{
     line-height: 2rem;
 }

@@ -65,6 +65,31 @@
           <h1>About Me</h1>
       </header>
       <section class="know-me">
+          <!-- insert image here -->
+            <picture>
+                <source srcset="images/Sizes/about-me_960.jpg,
+                            images/Sizes/about-me_1440.jpg 1.5x,
+                            images/Sizes/about-me_1920.jpg 2x"
+                    media="(min-width: 640px)" />
+
+            <source srcset="images/Sizes/about-me_720.jpg,
+                            images/Sizes/about-me_960.jpg 1.5x,
+                            images/Sizes/about-me_1440.jpg 2x"
+                    media="(min-width: 480px)" />
+
+            <source srcset="images/Sizes/about-me_480.jpg,
+                            images/Sizes/about-me_720.jpg 1.5x,
+                            images/Sizes/about-me_960.jpg 2x,
+                            images/Sizes/about-me_1440.jpg 3x"
+                    media="(min-width: 320px)" />
+
+            <source srcset="images/Sizes/about-me_320.jpg,
+                            images/Sizes/about-me_480.jpg 1.5x,
+                            images/Sizes/about-me_720.jpg 2x,
+                            images/Sizes/about-me_960.jpg 3x"
+                    media="(max-width: 319px)" />
+                <img src="images/about-me.jpg" alt="woman holding a camera">
+            </picture>
           <h2>Get to know me.</h2>
           <p>I am a UX/UI Designer and Front-End Web Developer located in Ottawa. I am currently enrolled in the Interactive Media Design program at Algonquin College</p>
           <button type="button" class="btn btn-outline-dark">My Work</button>

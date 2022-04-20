@@ -62,19 +62,45 @@
         </div>
       </nav>
        
-      <header>
+      <header class="bg-image">
           <div>
               <h2 class="h2">I'm Sadie</h2>
               <h1 class="h1">A UX/UI Designer & Front-End Web Developer</h1>
               <button type="button" class="btn btn-outline-dark btn-lg">Explore My Work</button>
           </div>
           <div>
-              <!-- insert image here -->
+              <img src="images/portrait.jpg" alt="Sadie sitting on a stool">
           </div>
       </header>
 
       <section class="about-me">
           <!-- insert image here -->
+          <picture>
+            <source srcset="images/Sizes/about_960.jpg,
+                            images/Sizes/about_1440.jpg 1.5x,
+                            images/Sizes/about_1920.jpg 2x"
+                    media="(min-width: 640px)" />
+
+            <source srcset="images/Sizes/about_720.jpg,
+                            images/Sizes/about_960.jpg 1.5x,
+                            images/Sizes/about_1440.jpg 2x"
+                    media="(min-width: 480px)" />
+
+            <source srcset="images/Sizes/about_480.jpg,
+                            images/Sizes/about_720.jpg 1.5x,
+                            images/Sizes/about_960.jpg 2x,
+                            images/Sizes/about_1440.jpg 3x"
+                    media="(min-width: 320px)" />
+
+            <source srcset="images/Sizes/about_320.jpg,
+                            images/Sizes/about_480.jpg 1.5x,
+                            images/Sizes/about_720.jpg 2x,
+                            images/Sizes/about_960.jpg 3x"
+                    media="(max-width: 319px)" />
+
+            <!-- original image -->
+            <img src="images/about.jpg" alt="woman reading a book whilst drinking a coffee">
+        </picture>
           <h2>About Me.</h2>
           <p>I am a UX/UI Designer and Front-End Web Developer located in Ottawa. I am currently enrolled in the Interactive Media Design program at Algonquin College</p>
           <button type="button" class="btn btn-outline-dark">Learn More</button>
@@ -82,28 +108,84 @@
 
       <section class="my-work">
           <!-- insert image here -->
-          <h2>My Work.</h2>
-          <p>Explore the various projects and designs, I've created throughout my first yeart at Algonquin College. My passion for design and attention to detail is reflected in the work I create.</p>
-          <button type="button" class="btn btn-outline-dark">Explore</button>
+          <picture>
+            <!-- providing different image sizes and resolutions for different screen sizes-->
+            <source srcset="images/Sizes/work_960.jpg,
+                            images/Sizes/work_1440.jpg 1.5x,
+                            images/Sizes/work_1920.jpg 2x"
+                    media="(min-width: 640px)" />
+
+            <source srcset="images/Sizes/work_720.jpg,
+                            images/Sizes/work_960.jpg 1.5x,
+                            images/Sizes/work_1440.jpg 2x"
+                    media="(min-width: 480px)" />
+
+            <source srcset="images/Sizes/work_480.jpg,
+                            images/Sizes/work_720.jpg 1.5x,
+                            images/Sizes/work_960.jpg 2x,
+                            images/Sizes/work_1440.jpg 3x"
+                    media="(min-width: 320px)" />
+
+            <source srcset="images/Sizes/work_320.jpg,
+                            images/Sizes/work_480.jpg 1.5x,
+                            images/Sizes/work_720.jpg 2x,
+                            images/Sizes/work_960.jpg 3x"
+                    media="(max-width: 319px)" />
+
+            <!-- original image -->
+            <img src="images/work.jpg" alt="image of app on phone">
+        </picture>
+        <div>
+            <h2>My Work.</h2>
+            <p>Explore the various projects and designs, I've created throughout my first yeart at Algonquin College. My passion for design and attention to detail is reflected in the work I create.</p>
+            <button type="button" class="btn btn-outline-dark">Explore</button>
+        </div>
       </section>
 
       <section class="my-skills">
         <!-- insert image here -->
+        <picture>
+            <!-- providing different image sizes and resolutions for different screen sizes-->
+            <source srcset="images/Sizes/skills_960.jpg,
+                            images/Sizes/skills_1440.jpg 1.5x,
+                            images/Sizes/skills_1920.jpg 2x"
+                    media="(min-width: 640px)" />
+
+            <source srcset="images/Sizes/skills_720.jpg,
+                            images/Sizes/skills_960.jpg 1.5x,
+                            images/Sizes/skills_1440.jpg 2x"
+                    media="(min-width: 480px)" />
+
+            <source srcset="images/Sizes/skills_480.jpg,
+                            images/Sizes/skills_720.jpg 1.5x,
+                            images/Sizes/skills_960.jpg 2x,
+                            images/Sizes/skills_1440.jpg 3x"
+                    media="(min-width: 320px)" />
+
+            <source srcset="images/Sizes/skills_320.jpg,
+                            images/Sizes/skills_480.jpg 1.5x,
+                            images/Sizes/skills_720.jpg 2x,
+                            images/Sizes/skills_960.jpg 3x"
+                    media="(max-width: 319px)" />
+            <img src="images/skills.jpg" alt="finger painting">
+        </picture>
         <h2>My Skills.</h2>
-        <div>
-            <h3>01 <br> Web Design</h3>
-            <p>Producing creative briefs. Utilizing personas and target market research to make decisions.</p>
+        <div class="skills">
+            <div>
+                <h3>01 <br> Web Design</h3>
+                <p>Producing creative briefs. Utilizing personas and target market research to make decisions.</p>
+            </div>
+            <div>
+                <h3>02 <br> Illustrator </h3>
+                <p>Creating vector graphics, logos and small animations.</p>
+            </div>
+            <div>
+                <h3>03 <br> Web Dev.</h3>
+                <p>Knowledge of HTML/CSS and JavaScript. Able to work with frameworks.</p>
+            </div>
+            <button type="button" class="btn btn-outline-dark">Learn More</button>
         </div>
-        <div>
-            <h3>02 <br> Illustrator </h3>
-            <p>Creating vector graphics, logos and small animations.</p>
-        </div>
-        <div>
-            <h3>03 <br> Web Dev.</h3>
-            <p>Knowledge of HTML/CSS and JavaScript. Able to work with frameworks</p>
-        </div>
-        <button type="button" class="btn btn-outline-dark">Learn More</button>
-      </section>
+    </section>
 
       <footer>
           <!-- insert logo here -->

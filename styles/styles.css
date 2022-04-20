@@ -7,6 +7,9 @@ body{
     line-height: 1.5rem;
 }
 
+p{
+    line-height: 2rem;
+}
 footer, header{
     background-color: #E8E4E1;
 }
@@ -26,4 +29,46 @@ h1, h2, h3, h4, p{
 button{
     margin: 0 2rem;
     margin-top: 1rem;
+}
+
+form{
+    margin: 0 2rem;
+}
+
+/* I still need to add a font and maybe typography hierarchy */
+
+/*************************************
+                HOME
+**************************************/
+.bg-image {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+.bg-image img {
+    width: 80%;
+    margin-top: 2rem;
+    border-radius: 10rem;
+}
+
+img{
+    width: 100%;
+}
+
+.my-skills img{
+    margin-top: 1rem;
+}
+
+.my-work img{
+    margin-top: 1rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skills p{
+    margin: 0 10rem;
 }

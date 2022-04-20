@@ -1,0 +1,29 @@
+/*************************************
+            DEFAULTS
+**************************************/
+
+body{
+    background-color: #F8F8F8;
+    line-height: 1.5rem;
+}
+
+footer, header{
+    background-color: #E8E4E1;
+}
+
+header {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+h1, h2, h3, h4, p{
+    margin: 0 2rem;
+    margin-top: 1rem
+}
+
+button{
+    margin: 0 2rem;
+    margin-top: 1rem;
+}

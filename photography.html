@@ -61,6 +61,30 @@
     </header>
     <section>
         <!-- insert image here -->
+        <picture>
+          <source srcset="images/Sizes/model1_960.jpg,
+                          images/Sizes/model1_1440.jpg 1.5x,
+                          images/Sizes/model1.jpg 2x"
+              media="(min-width: 640px)" />
+
+          <source srcset="images/Sizes/model1_720.jpg,
+                          images/Sizes/model1_960.jpg 1.5x,
+                          images/Sizes/model1_1440.jpg 2x"
+              media="(min-width: 480px)" />
+
+          <source srcset="images/Sizes/model1_480.jpg,
+                          images/Sizes/model1_720.jpg 1.5x,
+                          images/Sizes/model1_960.jpg 2x,
+                          images/Sizes/model1_1440.jpg 3x"
+              media="(min-width: 320px)" />
+
+          <source srcset="images/Sizes/model1_320.jpg,
+                          images/Sizes/model1_480.jpg 1.5x,
+                          images/Sizes/model1_720.jpg 2x,
+                          images/Sizes/model1_960.jpg 3x"
+              media="(max-width: 319px)" />
+            <img src="images/model1.jpg" alt="food delivery service app re-design">
+        </picture>
     </section>
     <section>
         <!-- insert image here -->

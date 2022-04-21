@@ -82,7 +82,7 @@ img{
 
 .skills p{
     /* adujsting the margin on p so the text takes up less off the width */
-    margin: 0 10rem;
+    margin: 0 6rem;
 }
 
 /*************************************
@@ -148,3 +148,156 @@ footer h3{
     padding-bottom: 2rem;
 }
 
+/*************************************
+           PHOTOGRAPHY
+**************************************/
+.photo img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem 0;
+}
+
+/*************************************
+           CONTACT
+**************************************/
+.contact-form {
+    background-color: #C4AEA3;
+    border-radius: 25px;
+    margin: 1.5rem 2rem;
+}
+
+.submit {
+    margin-bottom: 1rem;
+}
+
+/*************************************
+        MEDIA QUERIES
+**************************************/
+
+@media screen and (min-width:700px) {
+    /* adujsting my skills to sit in three columns instead of 1 */
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .skills p {
+        margin: unset;
+        margin: 0 2rem;
+    }
+
+    /* adjusting practice section to sit in three columns instead of 1 */
+    .practice-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    /********************************
+                CONTACT
+    ********************************/
+    /* making contact form sit next to contact information */
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    /* adding padding so contact page takes up the who viewport height */
+
+    /********************************
+                HOME
+    ********************************/
+    .bg-image img {
+        width: 60%;
+        padding-bottom: 1rem;
+    }
+
+    .about-me {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem 2rem;
+    }
+
+    .about-me img{
+        border-radius: 25px;
+    }
+
+    .my-work {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 1rem 2rem;
+    }
+
+    .my-work img {
+        border-radius: 25px;
+    }
+
+    .my-work picture {
+        grid-column-start: 2;
+    }
+
+    .my-work div{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .my-skills {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        margin: 1rem 2rem;
+    }
+
+    .my-skills img {
+        border-radius: 25px;
+    }
+
+    /********************************
+               ABOUT
+    ********************************/
+    .know-me {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem 2rem;
+    }
+
+    .know-me img{
+        border-radius: 25px;
+    }
+
+    .more-about {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    /********************************
+               PORTFOLIO
+    ********************************/
+    .grid {
+        /* making image and text sit next to each other */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 1rem 2rem;
+    }
+
+    /* adding rounder corners to img */
+    .grid img {
+        border-radius: 25px;
+    }
+
+    .right {
+        grid-column-start: 2;
+    }
+
+    .left{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    
+    .photography {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

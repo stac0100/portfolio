@@ -10,9 +10,9 @@ body{
 
 /* setting font sizes / hierarchy */
 h1{font-size: 2em;}
-h2{font-size: 1.625em;}
-h3{font-size: 1.375em;}
-h4{font-size: 1.125em;}
+h2{font-size: 1.625em; padding-top: 1.5rem;}
+h3{font-size: 1.375em; padding-top: 1.5rem;}
+h4{font-size: 1.125em; padding-top: 1.5rem;}
 p{
     line-height: 2rem;
 }
@@ -35,6 +35,11 @@ h1, h2, h3, h4, p{
 button{
     margin: 0 2rem;
     margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav button {
+    margin: unset;
 }
 
 form{
@@ -65,7 +70,7 @@ img{
     margin-top: 1rem;
 }
 .my-skills button{
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .my-work img{
     margin-top: 1rem;
@@ -115,4 +120,28 @@ footer img{
     position: absolute;
     top: 1rem;
     right: 2rem;
+}
+
+footer h3{
+    padding: unset;
+}
+
+/*************************************
+           ABOUT
+**************************************/
+
+.more {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.banner {
+    margin-top: 2rem;
+    background-color: #C4AEA3;
+}
+
+.banner p{
+    padding-top: 1rem;
+    font-size: 2em;
 }

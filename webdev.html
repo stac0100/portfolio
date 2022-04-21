@@ -64,6 +64,30 @@
       </header>
       <section>
           <!-- insert image here -->
+          <picture>
+            <source srcset="images/Sizes/project1_960.png,
+                            images/Sizes/project1_1440.png 1.5x,
+                            images/Sizes/project1_1920.png 2x"
+                media="(min-width: 640px)" />
+
+            <source srcset="images/Sizes/project1_720.png,
+                            images/Sizes/project1_960.png 1.5x,
+                            images/Sizes/project1_1440.png 2x"
+                media="(min-width: 480px)" />
+
+            <source srcset="images/Sizes/project1_480.png,
+                            images/Sizes/project1_720.png 1.5x,
+                            images/Sizes/project1_960.png 2x,
+                            images/Sizes/project1_1440.png 3x"
+                media="(min-width: 320px)" />
+
+            <source srcset="images/Sizes/project1_320.png,
+                            images/Sizes/project1_480.png 1.5x,
+                            images/Sizes/project1_720.png 2x,
+                            images/Sizes/project1_960.png 3x"
+                media="(max-width: 319px)" />
+            <img src="images/project1.png" alt="woman holding a camera">
+        </picture>
           <h2>Company / Client Name </h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus reiciendis molestias eligendi cumque. Et error earum adipisci quos? Reiciendis iure consectetur saepe fugit ad voluptates aperiam molestiae, quos debitis repudiandae.</p>
           <button type="button" class="btn btn-outline-dark">Learn More</button>

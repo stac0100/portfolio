@@ -66,9 +66,6 @@ img{
     width: 100%;
 }
 
-.my-skills img{
-    margin-top: 1rem;
-}
 .my-skills button{
     margin-bottom: 2rem;
 }
@@ -105,7 +102,7 @@ footer p{
 
 footer img{
     width: 25px;
-    margin: 1rem 2rem;
+   margin-left: 2rem;
 }
 
 .social-icons svg{
@@ -137,11 +134,17 @@ footer h3{
 }
 
 .banner {
-    margin-top: 2rem;
     background-color: #C4AEA3;
 }
 
 .banner p{
     padding-top: 1rem;
     font-size: 2em;
+    margin: unset;
 }
+
+.practice, .more-about {
+    background-color: #D5CFBF;
+    padding-bottom: 2rem;
+}
+

@@ -9,12 +9,31 @@ body{
 }
 
 /* setting font sizes / hierarchy */
-h1{font-size: 2em;}
-h2{font-size: 1.625em; padding-top: 1.5rem;}
-h3{font-size: 1.375em; padding-top: 1.5rem;}
-h4{font-size: 1.125em; padding-top: 1.5rem;}
+h1{
+    font-size: 2em;
+    font-family: molto, serif;
+    font-weight: 800;
+}
+h2{
+    font-size: 1.625em;
+     padding-top: 1.5rem;
+    font-family: molto, serif;
+    font-weight: 700;}
+h3{
+    font-size: 1.375em;
+    padding-top: 1.5rem;
+    font-family: molto, serif;
+    font-weight: 600;}
+    
+h4{
+    font-size: 1.125em; 
+    padding-top: 1.5rem;
+    font-family: molto, serif;
+    font-weight: 600;}
 p{
     line-height: 2rem;
+    font-family: arponasans, sans-serif;
+    font-weight: 200;
 }
 footer, header{
     background-color: #E8E4E1;
@@ -66,7 +85,7 @@ form{
     display:block;
     padding:10px;
 }
-/* I still need to add a font and maybe typography hierarchy */
+
 
 /*************************************
                 HOME

@@ -55,24 +55,114 @@
           </div>
         </div>
       </nav>
-
-      <section class="web-dev">
+      <header>
+        <h1>Portfolio</h1>
+      </header>
+      <section class="web-dev grid">
           <!-- insert image here -->
-          <h2>Web Development</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, inventore expedita debitis nostrum a sequi similique unde illo tempora rerum quasi fugiat, cumque ab provident, reiciendis nisi consequatur nesciunt veniam?</p>
-          <a href="webdev.html" class="btn btn-outline-dark" role="button">Learn More</a>
-      </section>
-      <section class="ux-design">
+          <picture>
+            <!-- providing different image sizes and resolutions for different screen sizes-->
+            <source srcset="images/Sizes/webdev_960.jpg,
+                        images/Sizes/webdev_1440.jpg 1.5x,
+                        images/Sizes/webdev_1920.jpg 2x"
+              media="(min-width: 640px)" />
+      
+            <source srcset="images/Sizes/webdev_720.jpg,
+                        images/Sizes/webdev_960.jpg 1.5x,
+                        images/Sizes/webdev_1440.jpg 2x"
+              media="(min-width: 480px)" />
+      
+            <source srcset="images/Sizes/webdev_480.jpg,
+                        images/Sizes/webdev_720.jpg 1.5x,
+                        images/Sizes/webdev_960.jpg 2x,
+                        images/Sizes/webdev_1440.jpg 3x"
+              media="(min-width: 320px)" />
+      
+            <source srcset="images/Sizes/webdev_320.jpg,
+                        images/Sizes/webdev_480.jpg 1.5x,
+                        images/Sizes/webdev_720.jpg 2x,
+                        images/Sizes/webdev_960.jpg 3x"
+              media="(max-width: 319px)" />
+      
+            <!-- original image -->
+            <img src="images/webdev.jpg" alt="image of app on phone">
+          </picture>
+          <div>
+            <h2>Web Development</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, inventore expedita debitis nostrum a sequi similique unde illo tempora rerum quasi fugiat, cumque ab provident, reiciendis nisi consequatur nesciunt veniam?</p>
+            <a href="webdev.html" class="btn btn-outline-dark" role="button">Learn More</a>
+          </div>
+          </section>
+      <section class="ux-design grid">
           <!-- insert image here -->
-          <h2>UX/UI Design</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, doloribus magni numquam optio non totam adipisci tenetur nam at eum. Eius corporis aliquid omnis, nihil facilis iure? Voluptatibus, animi nihil!</p>
-          <a href="uxdesign.html" class="btn btn-outline-dark" role="button">Learn More</a>
-      </section>
-      <section class="photography">
-        <h2>Photography</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus molestiae voluptatibus recusandae autem quia, aliquid velit atque minus, ut, odio nobis commodi animi deleniti tempore odit eos quos? Blanditiis, maxime.</p>
-        <a href="photography.html" class="btn btn-outline-dark" role="button">Learn More</a>
-      </section>
+          <picture class="right">
+            <!-- providing different image sizes and resolutions for different screen sizes-->
+            <source srcset="images/Sizes/ux_960.jpg,
+                        images/Sizes/ux_1440.jpg 1.5x,
+                        images/Sizes/ux_1920.jpg 2x"
+              media="(min-width: 640px)" />
+      
+            <source srcset="images/Sizes/ux_720.jpg,
+                        images/Sizes/ux_960.jpg 1.5x,
+                        images/Sizes/ux_1440.jpg 2x"
+              media="(min-width: 480px)" />
+      
+            <source srcset="images/Sizes/ux_480.jpg,
+                        images/Sizes/ux_720.jpg 1.5x,
+                        images/Sizes/ux_960.jpg 2x,
+                        images/Sizes/ux_1440.jpg 3x"
+              media="(min-width: 320px)" />
+      
+            <source srcset="images/Sizes/ux_320.jpg,
+                        images/Sizes/ux_480.jpg 1.5x,
+                        images/Sizes/ux_720.jpg 2x,
+                        images/Sizes/ux_960.jpg 3x"
+              media="(max-width: 319px)" />
+      
+            <!-- original image -->
+            <img src="images/ux.jpg" alt="image of app on phone">
+          </picture>
+          <div class="left">
+            <h2>UX/UI Design</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda, doloribus magni numquam optio non totam adipisci tenetur nam at eum. Eius corporis aliquid omnis, nihil facilis iure? Voluptatibus, animi nihil!</p>
+            <a href="uxdesign.html" class="btn btn-outline-dark" role="button">Learn More</a>
+          </div>
+          </section>
+      <section class="portfolio-photos grid">
+        <!-- insert image here -->
+        <picture>
+          <!-- providing different image sizes and resolutions for different screen sizes-->
+          <source srcset="images/Sizes/photos_960.jpg,
+                      images/Sizes/photos_1440.jpg 1.5x,
+                      images/Sizes/photos_1920.jpg 2x"
+            media="(min-width: 640px)" />
+    
+          <source srcset="images/Sizes/photos_720.jpg,
+                      images/Sizes/photos_960.jpg 1.5x,
+                      images/Sizes/photos_1440.jpg 2x"
+            media="(min-width: 480px)" />
+    
+          <source srcset="images/Sizes/photos_480.jpg,
+                      images/Sizes/photos_720.jpg 1.5x,
+                      images/Sizes/photos_960.jpg 2x,
+                      images/Sizes/photos_1440.jpg 3x"
+            media="(min-width: 320px)" />
+    
+          <source srcset="images/Sizes/photos_320.jpg,
+                      images/Sizes/photos_480.jpg 1.5x,
+                      images/Sizes/photos_720.jpg 2x,
+                      images/Sizes/photos_960.jpg 3x"
+            media="(max-width: 319px)" />
+    
+          <!-- original image -->
+          <img src="images/photos.jpg" alt="image of app on phone">
+        </picture>
+        <div>
+          <h2>Photography</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus molestiae voluptatibus recusandae autem quia, aliquid velit atque minus, ut, odio nobis commodi animi deleniti tempore odit eos quos? Blanditiis, maxime.</p>
+          <a href="photography.html" class="btn btn-outline-dark" role="button">Learn More</a>
+        </div>
+        </section>
     <footer>
         <div>
             <!-- insert logo here -->

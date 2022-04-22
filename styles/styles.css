@@ -5,7 +5,7 @@
 body{
     background-color: #F8F8F8;
     line-height: 1.5rem;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* setting font sizes / hierarchy */
@@ -177,9 +177,11 @@ footer h3{
 }
 
 .banner p{
-    padding-top: 1rem;
+    padding-top: 2rem;
     font-size: 2em;
     margin: unset;
+    font-family: molto, serif;
+    font-weight: 700;
 }
 
 .practice, .more-about {

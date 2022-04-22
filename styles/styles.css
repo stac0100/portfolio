@@ -46,6 +46,23 @@ form{
     margin: 0 2rem;
 }
 
+/* adding / styling skip links */
+.skiplinks ul{
+    list-style:none;
+    position:relative;
+}
+
+.skiplinks a{
+    position:absolute;
+    top:-10em;
+}
+/* revealing links when user is tabbing through */
+.skiplinks a:focus{ 
+    top:0;
+    background:#D5CFBF;
+    display:block;
+    padding:10px;
+}
 /* I still need to add a font and maybe typography hierarchy */
 
 /*************************************

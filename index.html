@@ -16,8 +16,15 @@
 <style>
 </style>
 <body>
+  <div class="skiplinks">
+    <ul>
+        <li><a href="#nav">Skip to navigation</a></li>
+        <li><a href="#main">Skip to main content</a></li>
+        <li><a href="#footer">Skip to footer</a></li>
+    </ul>
+  </div>
   <!-- BootStrap OffCanvas navbar -->
-  <nav class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
+  <nav id="nav" class="navbar navbar-light bg-light navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Sadie Sullivan</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -68,7 +75,7 @@
     </div>
   </header>
 
-  <section class="about-me">
+  <section id="main" class="about-me">
     <!-- insert image here -->
     <picture>
       <source srcset="images/Sizes/about_960.jpg,
@@ -188,7 +195,7 @@
     </div>
   </section>
 
-  <footer>
+  <footer id="footer">
     <div>
       <!-- insert logo here -->
       <img src="images/logo.png" alt="sss logo">
